@@ -6,7 +6,8 @@ d = int(b[1])
 e = int(b[2])
 
 total = c+d+e
+av = int(total / 3)
 
 print(total)
-print(int(total / 3))
-print(total - int(total / 3))
+print(av)
+print(total - av)
