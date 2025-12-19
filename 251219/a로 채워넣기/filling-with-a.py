@@ -1,6 +1,5 @@
 t = input()
 
-a = t.replace(t[1], "a", 1)
-a = a.replace(a[-2], "a", 1)
+a = t[0:1] + 'a' + t[2:-2] + 'a' + t[-1:]
 
 print(a)
